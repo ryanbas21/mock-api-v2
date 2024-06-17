@@ -1,0 +1,26 @@
+{
+  "name": "mock-api-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc src/index.ts --outDir ./dist/",
+    "watch": "tsc src/index.ts --outDir ./dist/ --watch",
+    "start": "nodemon dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@effect/platform": "^0.56.0",
+    "@effect/schema": "^0.67.22",
+    "effect": "^3.3.1",
+    "effect-http-node": "^0.13.5",
+    "prettier": "^3.3.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@effect/language-service": "^0.1.0",
+    "@types/node": "^20.14.2",
+    "nodemon": "^3.1.3"
+  }
+}
